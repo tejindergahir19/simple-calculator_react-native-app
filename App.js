@@ -200,7 +200,12 @@ const styles = StyleSheet.create({
     flex: 3,
     paddingTop: 5,
     paddingBottom: 5,
-    backgroundColor: buttonsBackground
+    backgroundColor: buttonsBackground,
+    shadowRadius:30,
+    shadowColor:"black",
+    shadowOpacity:0.55,
+    // borderTopLeftRadius:30,
+    // borderTopRightRadius:30
   },
   buttonRow: {
     flex: 1,
